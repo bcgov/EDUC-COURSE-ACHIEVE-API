@@ -1,0 +1,37 @@
+Set up Spring Boot API project
+Go to start.spring.io
+Select Maven project
+Select Java language
+Select 2.2.2 Spring Boot
+Enter ca.bc.gov.educ.api for Group
+Enter students for Artifact
+Enter Student RESTful API for description
+Select JAR for packaging
+Select 8 for Java
+Under dependencies Select
+Security, Web, OAuth2, JPA, JDBC, Oracle Driver, Lomboc, ???
+
+Set up Vue/Node.js client project
+npm i -g @vue/cli
+npm install --save core-js@^3
+vue create my-project-name
+cd my-project-name
+npm run serve
+vue ui
+vue run build
+
+Add Vue developer tools extension to Chrome
+Open Vue Developer tools settings and enable "Allow access to file URLs
+
+Set up Database connectivity
+
+Set up Jenkins
+brew install jenkins-lts
+brew services start jenkins-lts
+brew services restart jenkins-lts
+brew upgrade jenkins-lts
+
+Set up Git
+
+Set up OpenShift Deployment
+
